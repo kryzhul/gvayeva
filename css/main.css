@@ -1,0 +1,108 @@
+.box{
+    width: 1110px;
+    height: 672px;
+    border: 1px solid black;
+    background-image: url("../pictures/fon.png");
+    position: relative;
+}
+div{
+    display: block;
+}
+.zayac5{
+    position: absolute;
+    top: 310px;
+    left: 7px;
+}
+.gvayeva{
+    position: absolute;
+    top: 381.5px;
+    z-index: 3;
+}
+.oblako{
+    position: absolute;
+    left: 259px;
+    top: 381px;
+}
+.text{
+    text-align: center;
+    font-family: 'Myriad Pro';
+    font-size: 19px;
+    position: absolute;
+    left: 327px;
+    top: 382px;
+}
+.cloud1{
+    position: absolute;
+    left: 487px;
+    top: 14px;
+}
+.v1{
+    text-align: center;
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    position: absolute;
+    left: 529px;
+    top: 30px;
+}
+.cloud2{
+    position: absolute;
+    left: 678px;
+    top: 93px;
+}
+.v2{
+    text-align: center;
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    position: absolute;
+    left: 717px;
+    top: 117px; 
+}
+.cloud3{
+    position: absolute;
+    left: 460px;
+    top: 226px;
+}
+.v3{
+    text-align: center;
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+    position: absolute;
+    left: 570px;
+    top: 240px; 
+}
+.zayac4{
+    position: absolute;
+    left: 318px;
+    top: 527.5px;
+    z-index: 1;
+}
+.zayac1{
+    position: absolute;
+    left: 549px;
+    top: 472.5px;
+}
+.zayac2{
+    position: absolute;
+    top: 443px;
+    left: 720px;
+}
+.zayac3{
+    position: absolute;
+    top: 395.5px;
+    left: 897px;
+}
+.l1{
+    position: absolute;
+    top: 293px;
+    left: 396px;
+}
+.l2{
+    position: absolute;
+    top: 287px;
+    left: 825px;
+}
+.l3{
+    position: absolute;
+    top: 266px;
+    left: 91px; 
+}
