@@ -12,16 +12,28 @@ div{
     position: absolute;
     top: 310px;
     left: 7px;
+    visibility: visible;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-name: shake;
 }
 .gvayeva{
     position: absolute;
     top: 381.5px;
     z-index: 3;
+    visibility: visible; 
+    animation-duration: 1.5s; 
+    animation-delay: 0.5s; 
+    animation-name: bounceInRight;
 }
 .oblako{
     position: absolute;
     left: 259px;
     top: 381px;
+    visibility: visible;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-name: slideInUp;
 }
 .text{
     text-align: center;
@@ -30,6 +42,13 @@ div{
     position: absolute;
     left: 327px;
     top: 382px;
+    visibility: visible;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-name: slideInUp;
+}
+button{
+    height: 70px;
 }
 .cloud1{
     position: absolute;
@@ -37,13 +56,13 @@ div{
     top: 14px;
 }
 .v1{
-    text-align: center;
+    text-align:center;
     font-family: 'Myriad Pro';
     font-size: 18px;
     position: absolute;
-    left: 529px;
+    left: 520px;
     top: 30px;
-}
+    }
 .cloud2{
     position: absolute;
     left: 678px;
@@ -54,7 +73,7 @@ div{
     font-family: 'Myriad Pro';
     font-size: 18px;
     position: absolute;
-    left: 717px;
+    left: 705px;
     top: 117px; 
 }
 .cloud3{
@@ -67,7 +86,7 @@ div{
     font-family: 'Myriad Pro';
     font-size: 18px;
     position: absolute;
-    left: 570px;
+    left: 560px;
     top: 240px; 
 }
 .zayac4{
@@ -75,16 +94,28 @@ div{
     left: 318px;
     top: 527.5px;
     z-index: 1;
+    visibility: visible;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-name: shake;
 }
 .zayac1{
     position: absolute;
     left: 549px;
     top: 472.5px;
+    visibility: visible;
+    animation-duration: 3s;
+    animation-delay: 27s;
+    animation-name: shake;
 }
 .zayac2{
     position: absolute;
     top: 443px;
     left: 720px;
+    visibility: visible;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-name: shake;
 }
 .zayac3{
     position: absolute;
@@ -95,14 +126,56 @@ div{
     position: absolute;
     top: 293px;
     left: 396px;
+    visibility: visible;
+    animation-duration: 10s;
+    animation-delay: 2.5s;
+    animation-name: wobble;
 }
 .l2{
     position: absolute;
     top: 287px;
     left: 825px;
+    visibility: visible;
+    animation-duration: 10s;
+    animation-delay: 9s;
+    animation-name: wobble;
 }
 .l3{
     position: absolute;
     top: 266px;
     left: 91px; 
+    visibility: visible;
+    animation-duration: 10s;
+    animation-delay: 16s;
+    animation-name: wobble;
+}
+#modal1{
+    display: none;
+    font-size: 30px;
+    width: 776px;
+    height: 550px;
+}
+#modal2{
+    display: none;
+    font-size: 30px;
+    width: 776px;
+    height: 550px;
+}
+#modal3{
+    display: none;
+    font-size: 30px;
+    width: 776px;
+    height: 550px;
+}
+.reaction{
+    width: 670px;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+}
+.textreaction{
+    font-family: 'Myriad Pro';
+    font-size: 30px; 
+    position: absolute;
+    left: 240px;
 }

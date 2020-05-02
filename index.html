@@ -3,14 +3,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>O zakone</title>
-	<link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="animate.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+     <script src="wow.min.js"></script>
 </head>
 <body>
     <div class="box">
-       <img src="pictures/zayac5.png" class="zayac5">
-       <img src="pictures/gvayeva.png" class="gvayeva">
-       <img src="pictures/oblako.png" class="oblako">
-         <p class="text">
+       <img src="pictures/zayac5.png" class="zayac5 wow shake" data-wow-duration="3s" data-wow-delay="21s">
+       <img src="pictures/gvayeva.png" class="gvayeva wow bounceInRight" data-wow-duration="1.5s" data-wow-delay="0.5s">
+       <img src="pictures/oblako.png" class="oblako wow slideInUp"data-wow-duration="1s" data-wow-delay="0.5s">
+         <p class="text wow slideInUp"data-wow-duration="1s" data-wow-delay="1.5s">
          Два зайца создали 
          <br>
          компьютерный вирус и
@@ -19,31 +22,64 @@
          <br>
          Какой закон нарушили зайцы?
         </p>
-       <img src="pictures/verhnee oblako.png" class="cloud1">
-         <p class="v1">
-         Закон о защите прав
-         <br>
-         потребителей   
-         </p>
+        <img src="pictures/verhnee oblako.png" class="cloud1">
+         <button class="v1" data-fancybox data-src="#modal1" href="javascript:;" >
+                  <p>
+                  Закон о защите прав
+                  <br>
+                  потребителей   
+                  </p>
+               </button>
+            <div id="modal1">
+               <img src="reaction/angry.png" class="reaction">
+               <p class="textreaction">
+                  Неверно, подумай ещё!
+               </p>
+            </div>
+
         <img src="pictures/srednee oblako.png" class="cloud2">
-         <p class="v2">
+      <button class="v2" data-fancybox data-src="#modal2" href="javascript:;">
+         <p >
          Закон об информационной 
          <br>
          безопасности   
          </p>
+      </button>
+         <div id="modal2">
+            <p class="textreaction">
+            Умничка, так держать, заяц!
+            </p>
+            <img src="reaction/happy.png" class="reaction">
+         </div>
         <img src="pictures/nizhnee oblako.png" class="cloud3">
-         <p class="v3">
+      <button class="v3" data-fancybox data-src="#modal3" href="javascript:;">
+         <p >
          Закон о защите 
          <br>
          авторских прав
          </p>
-         <img src="pictures/zayac4.png" class="zayac4">
-         <img src="pictures/zayac1.png" class="zayac1">
-         <img src="pictures/zayac2.png" class="zayac2">
+      </button>
+         <div id="modal3">
+            <p class="textreaction">
+            Нет, зайчик, ты ошибся!
+            </p>
+            <img src="reaction/sad.png" class="reaction">
+         </div>
+
+         <img src="pictures/zayac4.png" class="zayac4 wow shake" data-wow-duration="3s" data-wow-delay="15s">
+         <img src="pictures/zayac1.png" class="zayac1 wow shake" data-wow-duration="3s" data-wow-delay="27s">
+         <img src="pictures/zayac2.png" class="zayac2 wow shake" data-wow-duration="3s" data-wow-delay="6s">
          <img src="pictures/zayac3.png" class="zayac3">
-         <img src="pictures/list1.png" class="l1">
-         <img src="pictures/list2.png" class="l2">
-         <img src="pictures/list3.png" class="l3">
+         <img src="pictures/list1.png" class="l1 wow wobble" data-wow-duration="10s" data-wow-delay="2.5s">
+         <img src="pictures/list2.png" class="l2 wow wobble" data-wow-duration="10s" data-wow-delay="9s">
+         <img src="pictures/list3.png" class="l3 wow wobble" data-wow-duration="10s" data-wow-delay="16s">
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="main.js"></script>
+   
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>
