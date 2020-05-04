@@ -51,6 +51,7 @@ button{
     height: 70px;
     background-color: transparent;
     border: none;
+    outline: none;
 }
 .cloud1{
     position: absolute;
