@@ -49,6 +49,8 @@ div{
 }
 button{
     height: 70px;
+    background-color: transparent;
+    border: none;
 }
 .cloud1{
     position: absolute;
